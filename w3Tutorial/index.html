@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+	<title>Sign-up form</title>
+</head>
+<body>
+	<div class="img-content">
+		<div>
+			<img src="imgs/odin-lined.png" alt="Odin-logo">
+			<p>Odin</p>
+		</div>
+		<footer>Photo by <span>Safar Safarov</span> on <a href="https://unsplash.com/es/fotos/monitor-de-computadora-de-pantalla-plana-negra-encendido-visualizacion-del-sitio-web-koOdUvfGr4c">Unsplash</a></footer>
+	</div>
+	<div class="form-content">
+		<div class="titles">
+			<h1>This is a mock up of how a sign up form made by me would look like.</h1>
+			<h2>Let's go.</h2>
+		</div>
+		<form action="#" method="post">
+			<fieldset>
+				<legend>Sign up now!</legend>
+				<div class="form-inputs">
+					<label for="First_name">First Name</label>
+					<input type="text", id="First_name", name="First_name" placeholder="John" required>
+					<label for="Email">Email</label>
+					<input type="email" name="Email" id="Email" placeholder= "johndoe@gmail.com" required>
+					<label for="Password">Password</label>
+					<input type="text" name="Password" id="Password" required>
+				</div>
+				<div class="form-inputs">
+					<label for="Last_name">Last Name</label>
+					<input type="text", id="Last_name" placeholder="Doe" required>
+					<label for="Phone_Number">Phone number</label>
+					<input type="tel" name="Phone_Number" id="Phone_Number" placeholder="+34 789 256 311" required>
+					<label for="Conf_password">Confirm Password</label>
+					<input type="text" name="Conf_password" id="Conf_password" required>
+				</div>
+			</fieldset>
+			<div class="Lower_form">
+				<button type="submit">Create Account</button>
+				<p>Already have an account? <a href="#">Log in</a></p>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
